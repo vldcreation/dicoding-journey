@@ -1,0 +1,12 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Node jS Journey from Dicoding",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "\"echo \"Error: no test specified\" && exit 1\""
+  },
+  "author": "Vicktor",
+  "license": "ISC"
+}
