@@ -8,4 +8,4 @@ const birthdayEventListner = (name) => {
 
 myEmitter.on('birthday', birthdayEventListner);
 
-myEmitter.emit('birthday', 'Rizki');
+myEmitter.emit('birthday', process.argv[2]);

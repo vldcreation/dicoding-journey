@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "Node jS Journey from Dicoding",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "\"echo \"Error: no test specified\" && exit 1\"",
-    "start": "node hapi/server.js"
+    "start": "node hapi/server.js",
+    "dev": "nodemon hapi/server.js"
   },
   "author": "Vicktor",
   "license": "ISC",
   "dependencies": {
     "@hapi/hapi": "^20.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
