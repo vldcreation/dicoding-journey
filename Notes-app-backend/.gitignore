@@ -1,0 +1,6 @@
+// create git ignore template for node js
+node_modules
+// ignore .kt files
+*.kt
+*.env
+*.zip
