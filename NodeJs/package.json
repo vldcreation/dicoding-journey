@@ -6,7 +6,10 @@
   "scripts": {
     "test": "\"echo \"Error: no test specified\" && exit 1\"",
     "start": "node hapi/server.js",
-    "dev": "nodemon hapi/server.js"
+    "dev": "nodemon hapi/server.js",
+    "start-notes": "node notes-app-backend/server.js",
+    "dev-notes": "nodemon notes-app-backend/server.js",
+    "lint": "eslint ./"
   },
   "author": "Vicktor",
   "license": "ISC",
@@ -14,6 +17,9 @@
     "@hapi/hapi": "^20.2.1"
   },
   "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
     "nodemon": "^2.0.15"
   }
 }

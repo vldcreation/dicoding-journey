@@ -1,0 +1,1 @@
+console.log('Server berjalan pada http://localhost:5000');
