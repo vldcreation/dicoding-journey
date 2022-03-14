@@ -12,5 +12,7 @@
         "ecmaVersion": "latest"
     },
     "rules": {
+        "no-console": "off",
+        "*.js text eol": "lf"
     }
 }
