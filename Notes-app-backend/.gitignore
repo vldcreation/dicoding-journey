@@ -4,4 +4,5 @@ node_modules
 *.kt
 *.env
 *.zip
-notes-api-webserver.pem 
+notes-api-webserver.pem
+cmd.txt
